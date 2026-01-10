@@ -1,28 +1,30 @@
 name: lingzunqianlz
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
+    - cron: '17 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lingzunqianlz
         env:
-          yvbx6787: ${{ secrets.yvbx6787 }}
+          jz6: ${{ secrets.jz6 }}
         run: |
-          echo $yvbx6787 | jq -r .arju7295 | /bin/bash
-          echo $uug605 | jq -r .a0379 | /bin/bash
-          echo $lmab7 | jq -r .yvag76325 | /bin/bash
-          echo $bfm3 | jq -r .sjaa04304 | /bin/bash
-          echo $afm60729 | jq -r .wps40 | /bin/bash
-          echo $gvorv40 | jq -r .fm45262 | /bin/bash
-          echo $ofxjb86 | jq -r .ckpnb93985 | /bin/bash
-          echo $enmg0 | jq -r .awyo2923 | /bin/bash
-          echo $ujzfw73 | jq -r .njl8021 | /bin/bash
-          echo $kzffm4 | jq -r .poxou6 | /bin/bash
+          echo $jz6 | jq -r .wkkms520 | /bin/bash
+          echo $pyplu40 | jq -r .a8086 | /bin/bash
+          echo $vdos86 | jq -r .avwu39 | /bin/bash
+          echo $k004 | jq -r .bm3761 | /bin/bash
+          echo $bjzk05 | jq -r .x8 | /bin/bash
+          echo $q97317 | jq -r .fvfm20 | /bin/bash
+          echo $w0267 | jq -r .vil459 | /bin/bash
+          echo $fohdi0 | jq -r .aedy3173 | /bin/bash
+          echo $nwq6 | jq -r .nw964 | /bin/bash
+          echo $ij0 | jq -r .c376 | /bin/bash
+          echo $hdsq8 | jq -r .ruofe0 | /bin/bash
+          echo $tocn2433 | jq -r .xidc08 | /bin/bash
+          echo $n5288 | jq -r .kolpr38 | /bin/bash
+          echo $nzz0 | jq -r .yw311 | /bin/bash
 
